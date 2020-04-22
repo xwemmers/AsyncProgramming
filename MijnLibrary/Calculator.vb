@@ -10,6 +10,10 @@ Public Class Calculator
         Return a - b
     End Function
 
+    Public Function Multiply(a As Integer, b As Integer) As Integer
+        Return a * b
+    End Function
+
     Public Function Square(a As Integer) As Integer
         'Vertraag de berekening om een kunstmatig trage functie te simuleren
         Thread.Sleep(a * 1000)
